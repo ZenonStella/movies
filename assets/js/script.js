@@ -18,8 +18,8 @@ fetch('movies.json')
                </div>
                <div class="col-md-8">
                   <div class="card-body">
-                        <h5 class="card-title ">${movie.original_title}</h5>
-                        <p class="card-text text-wrap ">${movie.overview}</p>
+                        <h5 class="card-title">${movie.original_title}</h5>
+                        <p class="card-text text-truncate ">${movie.overview}</p>
                         <p class="card-text"><small class="text-muted">Note : ${movie.vote_average}</small></p>
                   </div>
                </div>
